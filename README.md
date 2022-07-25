@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/3mmaRand/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/3mmaRand/ussie/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/3mmaRand/ussie/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/3mmaRand/ussie/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of ussie is to help you work with European football league data
