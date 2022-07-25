@@ -6,7 +6,7 @@ Authors@R:
            comment = c(ORCID = "0000-0001-6452-2420"))
 Description: This is a demo package for the "Building Tidy Tools" workshop at 
     at rstudio::conf(2022L). It allows you to work with European football 
-    league data supplied by the engsoccerdata package (Curley 2016).
+    league data supplied by the engsoccerdata package (Curley 2016). I like lunch.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
