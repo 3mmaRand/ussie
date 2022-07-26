@@ -4,23 +4,28 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Emma", "Rand", , "emma.rand@york.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6452-2420"))
-Description: This is a demo package for the "Building Tidy Tools" workshop at 
-    at rstudio::conf(2022L). It allows you to work with European football 
-    league data supplied by the engsoccerdata package (Curley 2016). I like lunch.
+Description: This is a demo package for the "Building Tidy Tools" workshop
+    at at rstudio::conf(2022L). It allows you to work with European
+    football league data supplied by the engsoccerdata package (Curley
+    2016). I like lunch.
 License: MIT + file LICENSE
+URL: https://github.com/3mmaRand/ussie, https://3mmarand.github.io/ussie/
+BugReports: https://github.com/3mmaRand/ussie/issues
+Imports: 
+    cli,
+    dplyr,
+    engsoccerdata,
+    rlang,
+    tibble
+Suggests: 
+    conflicted,
+    knitr,
+    rmarkdown,
+    roxygen2,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
-URL: https://github.com/3mmaRand/ussie,
-    https://3mmarand.github.io/ussie/
-BugReports: https://github.com/3mmaRand/ussie/issues
-Imports: 
-    dplyr,
-    tibble
-Suggests: 
-    engsoccerdata,
-    knitr,
-    rmarkdown,
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-VignetteBuilder: knitr
